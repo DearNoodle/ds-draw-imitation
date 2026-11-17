@@ -12,8 +12,8 @@ tpl = (ROOT / "player_template.html").read_text(encoding="utf-8")
 out = (tpl.replace("__META__", json.dumps({"duration": meta["meta"]["duration"], "w": 736, "h": 1315}))
           .replace("__STROKE_B64__", b64)
           .replace("__IMG_URI__", "data:image/jpeg;base64," + img))
-(ROOT / "player.html").write_text(out, encoding="utf-8")
-print("player.html MB", round(len(out.encode("utf-8")) / 1048576, 2),
+(ROOT / "index.html").write_text(out, encoding="utf-8")
+print("index.html MB", round(len(out.encode("utf-8")) / 1048576, 2),
       "| data MB", round(len(b64) / 1048576, 2),
       "| strokes", meta["meta"]["strokes"],
       "| duration", meta["meta"]["duration"])

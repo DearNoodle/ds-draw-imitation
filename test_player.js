@@ -14,7 +14,7 @@ const { chromium } = require('C:/Users/BenTo/AppData/Local/npm-cache/_npx/31e32e
   page.on('console', m => console.log('[console]', m.type(), m.text()));
   page.on('pageerror', e => console.log('[pageerror]', e.message));
   const t0 = Date.now();
-  await page.goto('file:///C:/Users/BenTo/Desktop/Repo/ds-imitating-draw/player.html?record=1');
+  await page.goto('file:///C:/Users/BenTo/Desktop/Repo/ds-imitating-draw/index.html?record=1');
   await page.waitForFunction('window.__ready === true', null, { timeout: 120000 });
   console.log('ready ms', Date.now() - t0);
   const info = await page.evaluate(() => {

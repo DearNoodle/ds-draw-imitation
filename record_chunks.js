@@ -3,7 +3,7 @@ const { spawn } = require('child_process');
 const { chromium } = require('C:/Users/BenTo/AppData/Local/npm-cache/_npx/31e32ef8478fbf80/node_modules/playwright-core');
 
 const FFMPEG = 'C:/Users/BenTo/Desktop/Repo/ds-imitating-draw/tools/ffmpeg/ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe';
-const HTML = 'file:///C:/Users/BenTo/Desktop/Repo/ds-imitating-draw/player.html?record=1';
+const HTML = 'file:///C:/Users/BenTo/Desktop/Repo/ds-imitating-draw/index.html?record=1';
 const CHROME = 'C:/Users/BenTo/AppData/Local/ms-playwright/chromium-1246/chrome-win64/chrome.exe';
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : d; };
 const OUT = arg('--out', 'painting_process_chunks.mp4');

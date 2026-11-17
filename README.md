@@ -14,7 +14,7 @@
 
 ## 先看這個
 
-直接雙擊 **`player.html`** 就會開始播放，不用安裝任何東西，也不用連網。
+直接雙擊 **`index.html`** 就會開始播放，不用安裝任何東西，也不用連網。
 
 - 想快轉或跳段：拖底部那條時間軸。拖到 50%，就是剛好畫完一半的筆數。
 - 想放大看細節：點畫布，或按 `EXPAND`。
@@ -24,7 +24,7 @@
 
 | 檔案 | 說明 |
 | --- | --- |
-| `player.html` | 單檔播放器，原圖和筆觸資料都包在裡面（約 5 MB） |
+| `index.html` | 單檔播放器，原圖和筆觸資料都包在裡面（約 5 MB） |
 | `painting_process.mp4` | 錄好的繪畫過程影片 |
 | `image.jpg` | 原圖（原作：京田スズカ） |
 | `strokes.json` | 全部筆觸資料：每一筆的位置、顏色、粗細、開始時間 |
@@ -58,7 +58,7 @@
 python gen_strokes.py        # 分析原圖、產生筆觸
 python jitter_fix.py         # 打散補筆的整齊格紋
 python underpaint.py         # 加上最前面的粗底筆
-python build_player.py       # 打包成 player.html
+python build_player.py       # 打包成 index.html
 node record_chunks.js --chunk 1800 --q 14 --jq 95 --out painting_process.mp4
 ```
 
