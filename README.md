@@ -1,5 +1,7 @@
 # DeepSeek 臨摹
 
+**[▶ 線上播放](https://dearnoodle.github.io/ds-draw-imitation/) : 153,276 筆** 的臨摹，**5 分 35 秒** 的繪畫過程影片。
+
 ## 原作
 
 插畫原作：**京田スズカ**（見 `image.jpg`）
