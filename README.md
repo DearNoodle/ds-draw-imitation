@@ -1,14 +1,16 @@
-# 一筆一筆 · Stroke by Stroke
-
-把一張插畫拆成 **153,276 筆**，再一筆一筆畫回來，最後錄成一段 5 分 35 秒的繪畫過程影片。
-
-不是濾鏡，也不是把原圖慢慢淡入 —— 每一筆都是真的畫在空白畫布上的。
+# DeepSeek 臨摹
 
 ## 原作
 
-插畫原作：**kyouda suzuka**（見 `image.jpg`）。
+插畫原作：**京田スズカ**（見 `image.jpg`）
 
-這個專案只是拿原作來做「逐筆重繪」的技術實驗，畫作版權屬原作者所有。如果你喜歡這張圖，請支持原作者。
+- pixiv：<https://www.pixiv.net/users/3718340>
+- X（Twitter）：<https://x.com/suzukannn>
+- Bluesky：<https://bsky.app/profile/suzukannn.bsky.social>
+- Skeb（委託）：<https://skeb.jp/@suzukannn>
+- BOOTH（同人誌）：<https://suzukannn.booth.pm>
+
+這個專案只是拿原作來做「逐筆重繪」的技術實驗，畫作版權屬原作者所有。如果你喜歡這張圖，請直接去追蹤、委託或購買她的作品。
 
 ## 先看這個
 
@@ -24,7 +26,7 @@
 | --- | --- |
 | `player.html` | 單檔播放器，原圖和筆觸資料都包在裡面（約 5 MB） |
 | `painting_process.mp4` | 錄好的繪畫過程影片 |
-| `image.jpg` | 原圖（原作：kyouda suzuka） |
+| `image.jpg` | 原圖（原作：京田スズカ） |
 | `strokes.json` | 全部筆觸資料：每一筆的位置、顏色、粗細、開始時間 |
 | `preview_final.png` | 畫完的樣子 |
 | `video_contact_sheet.png` | 0% / 20% / 45% / 72% / 100% 五個階段的對照圖 |
@@ -62,4 +64,4 @@ node record_chunks.js --chunk 1800 --q 14 --jq 95 --out painting_process.mp4
 
 ## 授權
 
-程式碼可自由參考使用。`image.jpg` 的畫作版權屬原作者 **kyouda suzuka**，不在這個授權範圍內，請勿另行散布或用於商業用途。
+程式碼可自由參考使用。`image.jpg` 的畫作版權屬原作者 **京田スズカ**（[pixiv](https://www.pixiv.net/users/3718340) / [X](https://x.com/suzukannn)），不在這個授權範圍內，請勿另行散布或用於商業用途。

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-一筆一筆：把 image.jpg 轉成 >100k 條帶 start/dur 的 SVG path 筆觸。
+DeepSeek 臨摹：把 image.jpg 轉成 >100k 條帶 start/dur 的 SVG path 筆觸。
 Pipeline: L/S k-means 5 層 -> 結構張量方向 -> Canny 輪廓 -> 五官/徽章密集細節。
 """
 import cv2, numpy as np, json, math, random, zlib, base64, os, sys
