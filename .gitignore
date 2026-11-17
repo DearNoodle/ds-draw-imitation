@@ -1,0 +1,25 @@
+# 第三方工具（315 MB，可自行下載 ffmpeg 放回 tools/ffmpeg/）
+tools/ffmpeg/
+
+# 影片：體積大且可由 player.html 重新錄製
+painting_process.mp4
+chunks/
+
+# 中間產物（由 strokes.json 重跑即可再生成）
+strokes_fix.json
+strokes_jitter.json
+strokes_under.json
+strokes.b64
+base.jpg
+preview_20.png
+preview_45.png
+preview_72.png
+side_by_side.png
+
+# 播放器由 build_player.py 產生；想直接開檔預覽時再取消下面這行註解
+# player.html
+
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
